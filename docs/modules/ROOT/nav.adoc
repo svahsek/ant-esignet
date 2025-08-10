@@ -1,2 +1,177 @@
 * xref:modules/esignet/pages/index.adoc[Esignet Documentation]
-* xref:modules/esignet/pages/index.adoc[Esignet Documentation]
+
+* xref:modules/esignet/pages/overview.adoc[Overview]
+* xref:modules/esignet/pages/summary.adoc[Summary]
+* General
+** xref:modules/esignet/pages/general/faq.adoc[FAQ]
+** xref:modules/esignet/pages/general/glossary.adoc[Glossary]
+** xref:modules/esignet/pages/general/resources.adoc[Resources]
+** xref:modules/esignet/pages/general/README.adoc[General README]
+
+* Esignet Authentication
+** xref:modules/esignet/pages/esignet-authentication/features.adoc[Features]
+** xref:modules/esignet/pages/esignet-authentication/README.adoc[README]
+** Develop
+*** xref:modules/esignet/pages/esignet-authentication/develop/api.adoc[API]
+*** xref:modules/esignet/pages/esignet-authentication/develop/components.adoc[Components]
+*** Configuration
+**** xref:modules/esignet/pages/esignet-authentication/develop/configuration/acr.adoc[ACR]
+**** xref:modules/esignet/pages/esignet-authentication/develop/configuration/claims.adoc[Claims]
+**** xref:modules/esignet/pages/esignet-authentication/develop/configuration/login-id-configuration-in-esignet.adoc[Login ID Configuration]
+**** xref:modules/esignet/pages/esignet-authentication/develop/configuration/purpose-based-ui-rendering-in-esignet.adoc[Purpose-based UI Rendering]
+**** xref:modules/esignet/pages/esignet-authentication/develop/configuration/README.adoc[Configuration README]
+*** Integration
+**** xref:modules/esignet/pages/esignet-authentication/develop/integration/audit.adoc[Audit]
+**** xref:modules/esignet/pages/esignet-authentication/develop/integration/authenticator.adoc[Authenticator]
+**** xref:modules/esignet/pages/esignet-authentication/develop/integration/key-binder.adoc[Key Binder]
+**** xref:modules/esignet/pages/esignet-authentication/develop/integration/README.adoc[Integration README]
+**** Relying Party
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/relying-party/development-and-integration-with-esignet.adoc[Development & Integration]
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/relying-party/relying-party-onboarding.adoc[Onboarding]
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/relying-party/README.adoc[Relying Party README]
+**** Wallet
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/wallet/credential-holder.adoc[Credential Holder]
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/wallet/wallet-authenticator.adoc[Wallet Authenticator]
+***** xref:modules/esignet/pages/esignet-authentication/develop/integration/wallet/README.adoc[Wallet README]
+*** xref:modules/esignet/pages/esignet-authentication/develop/README.adoc[Develop README]
+** Test
+*** End User Guide
+**** Health Portal
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/knowledge-based-authentication.adoc[Knowledge-based Authentication]
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/login-with-biometrics.adoc[Login with Biometrics]
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/login-with-otp.adoc[Login with OTP]
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/login-with-password.adoc[Login with Password]
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/login-with-qr-code.adoc[Login with QR Code]
+***** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/health-portal/README.adoc[Health Portal README]
+**** xref:modules/esignet/pages/esignet-authentication/test/end-user-guide/README.adoc[End User Guide README]
+*** xref:modules/esignet/pages/esignet-authentication/test/README.adoc[Test README]
+*** Try It Out
+**** xref:modules/esignet/pages/esignet-authentication/test/try-it-out/integrate-with-e-signet.adoc[Integrate with e-Signet]
+**** xref:modules/esignet/pages/esignet-authentication/test/try-it-out/register-yourself.adoc[Register Yourself]
+**** xref:modules/esignet/pages/esignet-authentication/test/try-it-out/using-mock-data.adoc[Using Mock Data]
+**** xref:modules/esignet/pages/esignet-authentication/test/try-it-out/README.adoc[Try It Out README]
+
+* Esignet Signup
+** xref:modules/esignet/pages/esignet-signup/features.adoc[Features]
+** xref:modules/esignet/pages/esignet-signup/signup-portal.adoc[Signup Portal]
+** xref:modules/esignet/pages/esignet-signup/README.adoc[Signup README]
+** Develop
+*** xref:modules/esignet/pages/esignet-signup/develop/components-signup-portal.adoc[Components Signup Portal]
+*** Integration Guide Signup Portal
+**** xref:modules/esignet/pages/esignet-signup/develop/integration-guide-signup-portal/identity-verifier-plugin.adoc[Identity Verifier Plugin]
+**** xref:modules/esignet/pages/esignet-signup/develop/integration-guide-signup-portal/integration-with-esignet-portal.adoc[Integration with Esignet Portal]
+**** xref:modules/esignet/pages/esignet-signup/develop/integration-guide-signup-portal/profile-registry-plugin.adoc[Profile Registry Plugin]
+**** xref:modules/esignet/pages/esignet-signup/develop/integration-guide-signup-portal/README.adoc[Integration Guide README]
+*** Technology
+**** xref:modules/esignet/pages/esignet-signup/develop/technology/api.adoc[API]
+**** xref:modules/esignet/pages/esignet-signup/develop/technology/README.adoc[Technology README]
+*** xref:modules/esignet/pages/esignet-signup/develop/README.adoc[Develop README]
+** Test
+*** End User Guide
+**** xref:modules/esignet/pages/esignet-signup/test/end-user-guide/signup-and-login-with-otp-for-verified-claims.adoc[Signup & Login with OTP]
+**** xref:modules/esignet/pages/esignet-signup/test/end-user-guide/README.adoc[End User Guide README]
+*** xref:modules/esignet/pages/esignet-signup/test/README.adoc[Test README]
+
+* Archive
+** Authentication System
+*** xref:modules/esignet/pages/archive/authentication-system/README.adoc[README]
+*** Images
+**** xref:modules/esignet/pages/archive/authentication-system/_images/1-kyc-auth-exchange.png[1-KYC Auth Exchange]
+**** xref:modules/esignet/pages/archive/authentication-system/_images/2-consent.png[2-Consent]
+**** xref:modules/esignet/pages/archive/authentication-system/_images/3-key-binding-process.png[3-Key Binding Process]
+**** xref:modules/esignet/pages/archive/authentication-system/_images/4-key-binding-usage.png[4-Key Binding Usage]
+** Digital Wallet
+*** xref:modules/esignet/pages/archive/digital-wallet/README.adoc[README]
+** Relying Party
+*** xref:modules/esignet/pages/archive/relying-party/README.adoc[README]
+** xref:modules/esignet/pages/archive/vc-issuer.adoc[VC Issuer]
+
+* Build and Deploy
+** Deployment Architecture
+*** xref:modules/esignet/pages/build-and-deploy/deployment-arch/deployment-guide-1.6.0.adoc[Deployment Guide 1.6.0]
+*** xref:modules/esignet/pages/build-and-deploy/deployment-arch/on-prem-installation-guidelines.adoc[On-Prem Installation Guidelines]
+*** xref:modules/esignet/pages/build-and-deploy/deployment-arch/README.adoc[Deployment Arch README]
+** Local Deployment
+*** Mock Client Application
+**** xref:modules/esignet/pages/build-and-deploy/local-deployment/mock-client-application/README.adoc[Mock Client App README]
+*** Mock ID System
+**** xref:modules/esignet/pages/build-and-deploy/local-deployment/mock-id-system/README.adoc[Mock ID System README]
+*** xref:modules/esignet/pages/build-and-deploy/local-deployment/README.adoc[Local Deployment README]
+** xref:modules/esignet/pages/build-and-deploy/README.adoc[Build & Deploy README]
+
+* Contribution
+** xref:modules/esignet/pages/contribution/code-contribution.adoc[Code Contribution]
+** xref:modules/esignet/pages/contribution/code-of-conduct.adoc[Code of Conduct]
+** xref:modules/esignet/pages/contribution/open-id.adoc[Open ID]
+** xref:modules/esignet/pages/contribution/README.adoc[Contribution README]
+
+* Interoperability
+** xref:modules/esignet/pages/interoperability/inji.adoc[Inji]
+** xref:modules/esignet/pages/interoperability/mosip.adoc[MOSIP]
+** xref:modules/esignet/pages/interoperability/opencrvs.adoc[OpenCRVS]
+** xref:modules/esignet/pages/interoperability/README.adoc[Interoperability README]
+
+* Roadmap and Releases
+** xref:modules/esignet/pages/roadmap-and-releases/README.adoc[Roadmap & Releases README]
+** Roadmap
+*** xref:modules/esignet/pages/roadmap-and-releases/roadmap/README.adoc[Roadmap README]
+*** xref:modules/esignet/pages/roadmap-and-releases/roadmap/roadmap-2024.adoc[Roadmap 2024]
+*** xref:modules/esignet/pages/roadmap-and-releases/roadmap/roadmap-2025.adoc[Roadmap 2025]
+** Versions
+*** xref:modules/esignet/pages/roadmap-and-releases/versions/README.adoc[Versions README]
+*** v0.9.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v0.9.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v0.9.0/test-report.adoc[Test Report]
+*** v1.0.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.0.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.0.0/test-report.adoc[Test Report]
+*** v1.1.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.1.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.1.0/test-report.adoc[Test Report]
+*** v1.2.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.2.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.2.0/test-report.adoc[Test Report]
+*** v1.3.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.3.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.3.0/test-report.adoc[Test Report]
+*** v1.4.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.4.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.4.0/test-report.adoc[Test Report]
+*** v1.4.1
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.4.1/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.4.1/test-report.adoc[Test Report]
+*** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.4.2.adoc[v1.4.2]
+*** v1.5.0
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.5.0/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.5.0/test-report.adoc[Test Report]
+*** v1.5.1
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.5.1/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.5.1/test-report.adoc[Test Report]
+*** v1.6.1
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.6.1/README.adoc[README]
+**** xref:modules/esignet/pages/roadmap-and-releases/versions/v1.6.1/test-report.adoc[Test Report]
+
+* Versions
+** xref:modules/esignet/pages/versions/Log-in-with-password.adoc[Log in with Password]
+** v1.0.0
+*** xref:modules/esignet/pages/versions/v1.0.0/
+** v1.1.0
+*** Test Report
+**** Images
+***** xref:modules/esignet/pages/versions/v1.1.0/test-report/_images/feature-health.png[Feature Health]
+***** xref:modules/esignet/pages/versions/v1.1.0/test-report/_images/sonar.png[Sonar]
+** v1.2.0
+*** Images
+**** xref:modules/esignet/pages/versions/v1.2.0/_images/feature-health-1.2.0.png[Feature Health 1.2.0]
+**** xref:modules/esignet/pages/versions/v1.2.0/_images/README.adoc[README]
+
+* xref:modules/esignet/pages/esignet-develop-keshav-test.adoc[Esignet Develop Keshav Test]
+* xref:modules/esignet/pages/components.adoc[Components]
+* xref:modules/esignet/pages/integration-guides.adoc[Integration Guides]
+* xref:modules/esignet/pages/readme/license.adoc[License]
+* xref:modules/esignet/pages/readme/principles.adoc[Principles]
+* xref:modules/esignet/pages/readme/standards.adoc[Standards]
+* xref:modules/esignet/pages/readme/technology/technology-stack.adoc[Technology Stack]
+* xref:modules/esignet/pages/readme/technology/README.adoc[Technology README]
+* xref:modules/esignet/pages/readme/README.adoc[Readme README]
+* xref:modules/esignet/pages/well-known.adoc[Well Known]
