@@ -2,3 +2,5 @@ name: esignet
 version: main
 title: Esignet Documentation
 start_page: modules/esignet/pages/index.adoc
+nav:
+  - modules/ROOT/nav.adoc
