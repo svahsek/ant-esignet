@@ -12,7 +12,7 @@ Join our in-depth webinar on eSignet's architecture and integration. 🛠️
 
 Watch the video below for more insights. Perfect for anyone looking to master eSignet quickly! 🚀
 
-video::ynSLlXDbTUM[youtube,width=640,height=360]
+video::https://www.youtube.com/watch?v=ynSLlXDbTUM[youtube,width=640,height=360]
 
 === Unlocking the values of integration with Inji and eSignet 🌐 
 
