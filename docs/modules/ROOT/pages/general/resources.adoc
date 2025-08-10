@@ -1,69 +1,78 @@
 == Resources
 
-==== eSignet - A Technical Deep Dive
+=== eSignet - A Technical Deep Dive
 
-Join our in-depth webinar on eSignet’s architecture and integration. 🛠️
+Join our in-depth webinar on eSignet's architecture and integration. 🛠️
 
-*📊 What You’ll Learn:*
+*📊 What You'll Learn:*
 
-* *Architecture Overview:* Understand how eSignet’s components work
-together.
+* *Architecture Overview:* Understand how eSignet's components work together.
 * *API & Code:* Explore key APIs with real code examples.
-* *Quick Integration:* Access reference implementations to speed up your
-integration.
+* *Quick Integration:* Access reference implementations to speed up your integration.
 
-Watch the video below for more insights. Perfect for anyone looking to
-master eSignet quickly! 🚀
+Watch the video below for more insights. Perfect for anyone looking to master eSignet quickly! 🚀
 
-++{++% embed
-url="`https://www.youtube.com/watch?ab++_++channel=MOSIP&index=3&list=PLJH-POb++_++55z9bYTJDkTGGc8pxiInWod8t&v=ynSLlXDbTUM`"
-%}
+video::ynSLlXDbTUM[youtube,width=640,height=360]
 
-==== Unlocking the values of integration with Inji and eSignet 🌐 
+=== Unlocking the values of integration with Inji and eSignet 🌐 
 
-Join our webinar to see how national IDs empower citizens in the digital
-age 
+Join our webinar to see how national IDs empower citizens in the digital age.
 
-* *National ID as an Enabler:* Learn how IDs unlock access to various
-services.
-* *Digital Transformation:* Discover how IDs streamline processes for
-citizens and governments.
-* *eSignet & Inji Deep Dive:* Explore how these solutions enhance
-authentication and verification.
-* *Real-World Impact:* Understand how these tools provide secure,
-efficient digital experiences.
+* *National ID as an Enabler:* Learn how IDs unlock access to various services.
+* *Digital Transformation:* Discover how IDs streamline processes for citizens and governments.
+* *eSignet & Inji Deep Dive:* Explore how these solutions enhance authentication and verification.
+* *Real-World Impact:* Understand how these tools provide secure, efficient digital experiences.
 
-Don’t miss out on how national IDs drive digital inclusion and
-efficiency!
+Don't miss out on how national IDs drive digital inclusion and efficiency!
 
-++{++% embed
-url="`https://www.youtube.com/watch?ab++_++channel=MOSIP&list=PLJH-POb++_++55z9bYTJDkTGGc8pxiInWod8t&v=DSQmHKnVQsE`"
-%}
+video::DSQmHKnVQsE[youtube,width=640,height=360]
 
-==== *eSignet Workshop 2024* 🚀
+=== eSignet Workshop 2024 🚀
 
-✨**What to Expect in This Workshop**
+✨ *What to Expect in This Workshop*
 
-Get ready for an interactive session where you’ll learn how to
-effortlessly integrate link:../README.md[eSignet] for identity
-verification and authentication in your service portal! 
+Get ready for an interactive session where you'll learn how to effortlessly integrate xref:../README.adoc[eSignet] for identity verification and authentication in your service portal! 
 
-===== *📊* Here’s What We’ll Cover 
+==== Here's What We'll Cover
 
-* *Build a Simple Portal*: Watch us create a live portal from scratch
-and see how it all comes together.
-* *Run eSignet Locally*: Discover how to set up and run eSignet
-seamlessly in your environment. 
-* *Full Integration Walkthrough*: Get a step-by-step guide on connecting
-eSignet to your portal.
-* *End-to-End Flow*: Experience the complete journey—from user login to
-verified identity—made easy! 
+* *Build a Simple Portal:* Watch us create a live portal from scratch and see how it all comes together.
+* *Run eSignet Locally:* Discover how to set up and run eSignet seamlessly in your environment.
+* *Full Integration Walkthrough:* Get a step-by-step guide on connecting eSignet to your portal.
+* *End-to-End Flow:* Experience the complete journey—from user login to verified identity—made easy!
 
-You’ll be ready to implement secure authentication and provide a
-seamless user experience by the end!
+You'll be ready to implement secure authentication and provide a seamless user experience by the end!
 
 Watch the video below for more insights!!
 
-++{++% embed
-url="`https://www.youtube.com/watch?ab++_++channel=MOSIP&t=7s&v=pcHux8GVrQE`"
-%} eSignet Workshop ++{++% endembed %}
+video::pcHux8GVrQE[youtube,width=640,height=360]
+
+=== Additional Resources
+
+For more information about eSignet integration and development:
+
+* xref:../README.adoc[eSignet Overview]
+* xref:../esignet-authentication/develop/api.adoc[API Documentation]
+* xref:../esignet-authentication/develop/integration/README.adoc[Integration Guide]
+* xref:faq.adoc[Frequently Asked Questions]
+* xref:glossary.adoc[Glossary of Terms]
+
+==== Quick Links
+
+[cols="2,3"]
+|===
+|Resource |Description
+
+|https://github.com/mosip/esignet[GitHub Repository]
+|Source code and latest releases
+
+|https://docs.mosip.io/[MOSIP Documentation]
+|Complete documentation portal
+
+|https://community.mosip.io/[Community Forum]
+|Get help and connect with other developers
+
+|https://mosip.io/[MOSIP Website]
+|Official MOSIP website
+|===
+
+NOTE: For the latest updates and announcements, visit our https://mosip.io/[official website] or join our community forums.
