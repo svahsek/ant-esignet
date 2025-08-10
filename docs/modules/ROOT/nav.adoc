@@ -1,11 +1,37 @@
 * xref:index.adoc[Esignet Documentation]
 * xref:overview.adoc[Overview]
-* xref:summary.adoc[Summary]
+* xref:components.adoc[Components]
+* xref:integration-guides.adoc[Integration Guides]
+* xref:readme/license.adoc[License]
+* xref:readme/principles.adoc[Principles]
+* xref:readme/standards.adoc[Standards]
+* xref:readme/technology/technology-stack.adoc[Technology Stack]
+* xref:readme/technology/README.adoc[Technology README]
+* xref:readme/README.adoc[Readme README]
+* xref:well-known.adoc[Well Known]
+
+
 * General
 ** xref:general/faq.adoc[FAQ]
 ** xref:general/glossary.adoc[Glossary]
 ** xref:general/resources.adoc[Resources]
 ** xref:general/README.adoc[General README]
+
+
+
+* Contribution
+** xref:contribution/code-contribution.adoc[Code Contribution]
+** xref:contribution/code-of-conduct.adoc[Code of Conduct]
+** xref:contribution/open-id.adoc[Open ID]
+** xref:contribution/README.adoc[Contribution README]
+
+* Interoperability
+** xref:interoperability/inji.adoc[Inji]
+** xref:interoperability/mosip.adoc[MOSIP]
+** xref:interoperability/opencrvs.adoc[OpenCRVS]
+** xref:interoperability/README.adoc[Interoperability README]
+
+
 
 * Esignet Authentication
 ** xref:esignet-authentication/features.adoc[Features]
@@ -65,25 +91,12 @@
 **** xref:esignet-signup/develop/technology/api.adoc[API]
 **** xref:esignet-signup/develop/technology/README.adoc[Technology README]
 *** xref:esignet-signup/develop/README.adoc[Develop README]
+
 ** Test
 *** End User Guide
 **** xref:esignet-signup/test/end-user-guide/signup-and-login-with-otp-for-verified-claims.adoc[Signup & Login with OTP]
 **** xref:esignet-signup/test/end-user-guide/README.adoc[End User Guide README]
 *** xref:esignet-signup/test/README.adoc[Test README]
-
-* Archive
-** Authentication System
-*** xref:archive/authentication-system/README.adoc[README]
-*** Images
-**** xref:archive/authentication-system/_images/1-kyc-auth-exchange.png[1-KYC Auth Exchange]
-**** xref:archive/authentication-system/_images/2-consent.png[2-Consent]
-**** xref:archive/authentication-system/_images/3-key-binding-process.png[3-Key Binding Process]
-**** xref:archive/authentication-system/_images/4-key-binding-usage.png[4-Key Binding Usage]
-** Digital Wallet
-*** xref:archive/digital-wallet/README.adoc[README]
-** Relying Party
-*** xref:archive/relying-party/README.adoc[README]
-** xref:archive/vc-issuer.adoc[VC Issuer]
 
 * Build and Deploy
 ** Deployment Architecture
@@ -98,17 +111,7 @@
 *** xref:build-and-deploy/local-deployment/README.adoc[Local Deployment README]
 ** xref:build-and-deploy/README.adoc[Build & Deploy README]
 
-* Contribution
-** xref:contribution/code-contribution.adoc[Code Contribution]
-** xref:contribution/code-of-conduct.adoc[Code of Conduct]
-** xref:contribution/open-id.adoc[Open ID]
-** xref:contribution/README.adoc[Contribution README]
 
-* Interoperability
-** xref:interoperability/inji.adoc[Inji]
-** xref:interoperability/mosip.adoc[MOSIP]
-** xref:interoperability/opencrvs.adoc[OpenCRVS]
-** xref:interoperability/README.adoc[Interoperability README]
 
 * Roadmap and Releases
 ** xref:roadmap-and-releases/README.adoc[Roadmap & Releases README]
@@ -163,14 +166,3 @@
 *** Images
 **** xref:versions/v1.2.0/_images/feature-health-1.2.0.png[Feature Health 1.2.0]
 **** xref:versions/v1.2.0/_images/README.adoc[README]
-
-* xref:esignet-develop-keshav-test.adoc[Esignet Develop Keshav Test]
-* xref:components.adoc[Components]
-* xref:integration-guides.adoc[Integration Guides]
-* xref:readme/license.adoc[License]
-* xref:readme/principles.adoc[Principles]
-* xref:readme/standards.adoc[Standards]
-* xref:readme/technology/technology-stack.adoc[Technology Stack]
-* xref:readme/technology/README.adoc[Technology README]
-* xref:readme/README.adoc[Readme README]
-* xref:well-known.adoc[Well Known]
