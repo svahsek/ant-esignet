@@ -1,0 +1,139 @@
+== Signup and Login with OTP for Verified Claims
+
+eSignet Signup service can be used by users to register and create their
+user profiles seamlessly. The below mentioned steps outline the signup
+process in detail:
+
+[arabic]
+. The user navigates to the portal.
+. They click on the *Sign in with eSignet* to initiate the registration
+process.
+
+Sign in with eSignet
+
+The login screen appears, displaying the available login options for the
+user.
+
+[arabic, start=3]
+. To begin the signup process, click on *Sign up with Unified Login*,
+located at the bottom of the page.
+
+Sign up with Unified Login
+
+[arabic, start=4]
+. Enter your 8-9 digit mobile number in the provided field and click
+*Continue* to proceed.
+
+Enter Mobile Details
+
+[arabic, start=5]
+. Enter the OTP received on the mobile number and click Verify__.__
+
+Verify with OTP Page
+
+[arabic, start=6]
+. A success message confirming the mobile number verification is
+displayed. Click *Continue* to proceed with setting up your account.
+
+Verification Sucess Page
+
+Clicking *Continue* redirects the user to a page where they can enter
+basic personal details to set up their account.
+
+[arabic, start=7]
+. Enter your name and create a password. Ensure you agree to the terms
+and conditions by selecting the checkbox, then click *Continue* to
+complete the account setup.
+
+Set Up Account Page
+
+[arabic, start=8]
+. The user is successfully registered, and a confirmation message is
+displayed. The user can now log in using their registered mobile number.
+Click *Login* to proceed.
+
+Registered Confirmation Message
+
+[arabic, start=9]
+. The login screen appears, displaying the available login options for
+the user. To proceed, the user selects the *Login with OTP* option.
+
+Login Page
+
+[arabic, start=10]
+. Enter the mobile number used during account setup in the previous
+steps and click *Get OTP*.
+
+Get OTP Page
+
+++{++% hint style="`info`" %} *Note:* On the screen, the label for the
+text field is displayed as *‘UIN/VID’*. Enter your mobile number in the
+text box to proceed. ++{++% endhint %}
+
+[arabic, start=11]
+. The user receives the OTP through their registered channel (either via
+phone or email). Enter the valid OTP in the provided field and click
+*Verify* to proceed.
+
+Enter OTP Page
+
+[arabic, start=12]
+. An attention screen with a list of claims is displayed and the user is
+asked to confirm to proceed with eKYC. Click on _Proceed_ to continue.
+
+Attention Page
+
+[arabic, start=13]
+. The user is now redirected to the page where the steps for the eKYC
+process are listed. Click on the _Proceed option_ to continue.
+
+eKYC Process Page
+
+[arabic, start=14]
+. Choose an eKYC provider and click on the _Proceed_ option.
+
+eKYC Provider Page
+
+[arabic, start=15]
+. Select the I Agree to the ‘Terms & Conditions’ checkbox and click on
+the _Proceed_ option to continue.
+
+Terms and Conditions Page
+
+[arabic, start=16]
+. A video preview is displayed along with general guidelines to be
+followed during the video eKYC process.
+
+Video Preview Page
+
+++{++% hint style="`info`" %} *Note:* Please ensure that the device
+camera is enabled. ++{++% endhint %}
+
+[arabic, start=17]
+. The eKYC process is initiated please follow the instructions on the
+screen to complete the process.
+
+eKYC Process is Initiated Page
+
+Left Side of the Face Scan
+
+Right Side of the Face Scan
+
+[arabic, start=18]
+. A verification success message is displayed.
+
+Verification Success Message Page
+
+[arabic, start=19]
+. Once the verification process is completed successfully. A consent
+screen is displayed to the user to confirm the sharing of the user’s
+information. Click on _Allow_ to continue.
+
+eSignet Allow Page
+
+[arabic, start=20]
+. Once the consent is given the user data is shared with the service
+provider and the user lands on the home page of the service portal with
+user details displayed.
+
+This completes the eKYC verification process for the user.

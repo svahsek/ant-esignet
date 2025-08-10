@@ -1,0 +1,11 @@
+== Technology
+
+Please refer to the below sections to build, integrate, and enhance
+solutions with signup using comprehensive guides, tools, and resources:
+
+link:../../develop/components-signup-portal.md[Components - Signup
+Portal] – Seamlessly register and verify identities with the Signup
+Portal’s robust components and secure eKYC integration.
+
+https://mosip.stoplight.io/docs/identity-provider/branches/signupV1.0.3/xzlslwsgsz4w5-e-signet-signup-portal-ap-is[API
+Reference] – Refer here for all the APIs used by signup.

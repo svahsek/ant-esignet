@@ -1,0 +1,39 @@
+== Integration Guides - eSignet
+
+This section contains various guides and information that could benefit:
+
+* Organizations, nations, and ID registries have an identity solution
+with authentication capabilities to enable Open ID connect-based
+authentication.
+* Relying parties or service providers from countries where the eSignet
+solution is deployed.
+* Digital wallets are those who want to integrate with eSignet and
+provide wallet-based authentication solutions or store verifiable
+credentials in their wallets.
+
+For more information on how to get started with these integrations, read
+through:
+
+Explore how to implement and integrate the Authenticator plugin for user
+authentication with eSignet.
+
+authenticator.md
+
+Explore how to bind an individual’s ID with a public key to enable
+secure token-based authentication.
+
+key-binder.md
+
+Explore how to bind user IDs with public keys for wallet authentication.
+
+audit.md
+
+Explore how digital wallets store credentials and enable authentication
+in eSignet.
+
+wallet
+
+Explore setup steps, OIDC client registration, authentication flow, and
+integration best practices.
+
+relying-party

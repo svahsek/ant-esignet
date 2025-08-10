@@ -1,0 +1,240 @@
+== Roadmap 2024
+
+Q1: Jan’24 - Mar’24
+
+Q2: Apr’24 - Jun’24
+
+Q3: Jul’24 - Sep’24
+
+Q4: Oct’24 - Dec’24
+
+=== eSignet
+
+Quarter
+
+Feature
+
+Status
+
+Feature Details
+
+Release Details
+
+Q1
+
+Password based authentication
+
+Completed
+
+Password based authentication
+
+v1.3.0
+
+Q1
+
+Unified Login Portal, Inclusion of custom handle - Phone number
+
+Completed
+
+Unified-login-portal
+
+v1.3.0
+
+Q2
+
+Support for Sunbird Integration
+
+Knowledge based Identification
+
+Completed
+
+Sunbird RC Integration
+
+v1.4.0
+
+Q2
+
+Configuration capability for Knowledge based Identification
+
+Authenticator plugin Implementation for KBI and VC issuance plugin
+implementation
+
+Regex validations implementation for KBI
+
+Completed
+
+KBI Configuration
+
+v1.4.1
+
+Q3
+
+Profile Management
+
+Conduct e-KYC on registered users, capability to confirm user identity
+through additional details.
+
+Completed
+
+L2 User flow - Enable user to complete e-KYC
+
+v1.5.0
+
+Q3 - Q4
+
+eSignet Java 21 migration changes
+
+Moved to 2025
+
+Java 21 migration changes for eSignet
+
+v1.4.3
+
+Q3 - Q4
+
+L1 performance fixes
+
+eSignet deployment fixes
+
+Moved to 2025
+
+L1 performance fixes
+
+v1.4.2
+
+Q4
+
+Support for identity brokering
+
+It is capable of integrating with multiple ID providers for unified user
+authentication.
+
+Moved to 2025
+
+Support for identity brokering
+
+v1.6.0
+
+Q1-Q4
+
+Re-consent
+
+Renew user consent for updates and modifications.
+
+Moved to 2025
+
+Re-Consent in MOSIP
+
+Q1-Q4
+
+UI enhancements
+
+Dynamic UI pages tailored to specific use cases- Verify / Link / Login.
+
+Moved to 2025
+
+eSignet UI change based on different use cases
+
+Q1-Q4
+
+Revamped QR code / wallet-based login using OpenID4VP & SIOP v2 for a
+secure and streamlined authentication experience.
+
+Moved to 2025
+
+Revamp the QR code / wallet based login using OpenID4VP or SIOP v2
+
+Q1-Q4
+
+Revocation of VC
+
+New ability to invalidate and manage credentials for security purposes.
+
+Moved to 2025
+
+Revocation of VC
+
+Q1-Q4
+
+Support for Key Manager - EDD and EC signature.
+
+Moved to 2025
+
+Key Manager - EDD and EC Signature
+
+Q1-Q4
+
+Verifiable Credential issuance
+
+Support for Verifiable Credential issuance formats like Self-Issued JWT
+(SDJWT), JSON Web Token (JWT), CBOR Web Token (CWT), JavaScript Object
+Notation (JSON), Credential Handler API (CHAPI), JSON Linked Data
+(JSONLD)
+
+Moved to 2025
+
+Support for multiple Verifiable Credential issuance formats
+
+Q1-Q4
+
+Support for pre-authorized code flow in OID4VCI
+
+Integrating pre-authorized code flow in OID4VCI framework to securely
+obtain and exchange Verifiable Credentials.
+
+Moved to 2025
+
+Support for pre-authorized code flow in OID4VCI
+
+Q1-Q4
+
+eSignet UI: FAPI 2.0 compliance analysis
+
+Capabilities to adapt to Financial-grade API (FAPI) 2.0 standards for
+enhanced security.
+
+Moved to 2025
+
+eSignet-UI: FAPI 2.0 compliance analysis
+
+Q1-Q4
+
+Consent Management
+
+End user can view, manage, and edit consented user information.
+
+Moved to 2025
+
+User Consent Management by end user
+
+Q1-Q4
+
+Support for Client-Initiated Backchannel Authentication (CIBA).
+
+Moved to 2025
+
+Additional authentication factor: CIBA
+
+Q1-Q4
+
+Support for WebAuthN API.
+
+Moved to 2025
+
+Additional authentication factor: WebAuthN
+
+Q1-Q4
+
+Support for 2-Factor authentication (2FA).
+
+Moved to 2025
+
+Additional authentication factor: TOTP using authenticator app
+
+Q1-Q4
+
+Support for Token Introspection.
+
+Moved to 2025
+
+Introspect Endpoint

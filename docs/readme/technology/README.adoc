@@ -1,0 +1,16 @@
+== Technology
+
+Please refer to the below sections to build, integrate, and enhance
+solutions with eSignet using comprehensive guides, tools, and resources:
+
+* link:../technology/technology-stack.md[*Technology Stack*] – Learn
+about the technologies used in eSignet, including services, storage
+solutions, deployment tools, and testing frameworks.
+* link:../../esignet-authentication/develop/components.md[*Components –
+eSignet*] – Understand eSignet’s core components, functions, and
+integration methods.
+* link:../../esignet-signup/develop/components-signup-portal.md[*Components
+- Signup Portal*] – Seamlessly register and verify identities with the
+Signup Portal’s robust components and secure eKYC integration.
+* link:../../esignet-authentication/develop/api.md[*API Reference*] –
+Refer here for all the APIs used by eSignet.

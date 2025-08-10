@@ -1,0 +1,5 @@
+== API
+
+Please refer
+https://github.com/mosip/esignet/blob/v1.6.1/docs/esignet-openapi.yaml[here]
+for eSignet authentication API documentation.

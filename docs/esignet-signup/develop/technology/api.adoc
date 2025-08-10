@@ -1,0 +1,4 @@
+== API
+
+Refer the API docuemntaiton
+https://github.com/mosip/esignet-signup/blob/v1.2.1/docs/esignet-signup-openapi.yaml[here].

@@ -1,0 +1,393 @@
+== Roadmap 2025
+
+Here we present the product roadmap for eSignet for the calendar year
+2025. Annual product cycle of eSignet commences in January and concludes
+in December.
+
+++{++% hint style="`warning`" %} *Prioritization*: Through this roadmap
+the startegic or adaptive prioritization, if there is, has been
+indicated as below:
+
+* Add ++[++ *➕* ++]++: Added new.
+* Strategic priortization ++[++ *↑* ++]++ : Brought ahead in schedule.
+* Adaptive reschedule ++[++ *↓* ++]++: Is moved to approaching quarters.
+++{++% endhint %}
+
+Vision
+
+* *Q1 2025:* Starting the year with major fixes, along with enhancements
+to IDA kyc-auth and kyc auth-exchange API’s.
+* *Q2 2025:* Introducing prefix postfix support for multiple login
+handles, customizable eSignet UI, and enhancing client management
+endpoint.
+* *Q3 2025:* Adding FAPI 2.0 security compliance and SSO feature along
+with dynamic sign-up form. These upgrades enhance security, improve
+interoperability, and offer more flexibility in user onboarding.
++
+*Q4 2025:* Java platform migration from Java 11 to Java 21, and advanced
+consent management features including support for obtaining consent from
+external parties, and consent handling for child and deceased users.
++
+*2025 and Beyond:* Focus on implementing identity brokering for seamless
+integration with external identity providers, ensuring secure user
+authentication. Transforming eSignet into an advanced eKYC verifier by
+leveraging plugins for ID verification with OIDC providers through web
+or mobile wallets, helping businesses comply with regulatory standards,
+and improving onboarding.
+
+.
+
+Quarter 🗓️
+
+Features 🛠️
+
+Details📝
+
+Status 📊
+
+Release 📌
+
+Note 📖
+
+Q1
+
+Critical bug fixes for 1.5.0
+
+Bug fixes
+
+🟢 Completed
+
+1.5.1
+
+Q2
+
+Performance fixes for the eSignet service using Mock IDA
+
+Performance enhancement
+
+🟠 In-progress
+
+1.6.0
+
+Q2
+
+Resource calculator for eSignet service with Mock IDA
+
+Hardware and software resource calculator for eSignet Module
+
+🟠 In-progress
+
+1.6.0
+
+Q2
+
+Add support for prefix and postfix customization for multiple handles in
+the eSignet UI
+
+Added support for users to log in with their preferred login ID
+
+🟠 In-progress
+
+1.6.0
+
+Q2
+
+Client management endpoint enhancement
+
+Enhancement of the existing client management endpoint gives more
+flexibility to the replying part to customize eSignet as needed
+
+🟠 In-progress
+
+1.6.0
+
+Q2
+
+Configurable consent screen
+
+Added as part of client management endpoint enhancement
+
+🟠 In-progress
+
+1.6.0
+
+Q2
+
+eSignet UI Dynamic Page Title
+
+RP can configure the eSignet UI to have the desired page title &
+subtitle as per requirement.
+
+🟠 In-progress
+
+1.6.0
+
+Q2 ↓
+
+eKYC verification support in eSignet with MOSIP IDA
+
+KYC-auth and KYC-exchange API enhancement in Authenticator Plugin
+
+🟠 In-progress
+
+1.6.1
+
+Moved from:
+
+Q2 to Q3
+
+Q3
+
+Performance fixes for eSignet service with MOSIP ID
+
+Performance enhancement
+
+🔵 Planned
+
+1.7.0
+
+Q3 ➕
+
+FAPI 2.0 Security Profile Compliance
+
+Adding support in eSignet for:
+
+PAR
+
+Sender Constraint Token using Dpop
+
+Authorization Server Issuer Identification
+
+🔵 Planned
+
+1.7.0
+
+Moved from:
+
+Q2 to Q3
+
+Q3 ➕
+
+SSOSuper App Support
+
+Single Sign on support in eSignet for smooth integration with super apps
+
+🔵 Planned
+
+1.7.0
+
+Q3 ➕
+
+eSignet Conformance Fixes
+
+Fixes for the making eSignet adhere to Open ID standards &
+specification.
+
+🔵 Planned
+
+1.7.0
+
+Q3 ↓
+
+Dynamic sign up UI
+
+(Front end Resource issue)
+
+Dynamic sign up UI based on a predefined UI schema
+
+🟠 In-progress
+
+1.7.0
+
+Moved from:
+
+Q2 to Q3
+
+Q3 ↓
+
+KBI form update: -
+
+Configuring labels
+
+Multiple input type support
+
+Multi lingual support(Front end Resource issue)
+
+Enhancing the KBI form in eSignet UI to support multiple input type
+
+🟠 In-progress
+
+1.7.0
+
+Moved from:
+
+Q2 to Q3
+
+Q3
+
+Resource calculator eSignet with MOSIP ID
+
+Software and hardware required for eSignet module
+
+🔵 Planned
+
+1.7.0
+
+Q4➕
+
+Support OpenG2P to fetch user accounts from SPAR.
+
+Support for "`resource`" parameter in the authorization request
+
+Support for token exchange to give out PSUT to different clients
+
+Support OpenG2P to fetch user accounts from SPAR.
+
+🔵 Planned
+
+1.8.0
+
+Added New to: Q4
+
+Q4
+
+Consent Handling in eSignet for Child and Deceased
+
+Support to Identify who is registering with RP and how to handle the
+auth for child and deceased
+
+🔵 Planned
+
+1.8.0
+
+Q4
+
+Getting consent from an external party
+
+Flexibility to seek consent from external party, if consent is disabled
+
+🔵 Planned
+
+1.8.0
+
+Q4
+
+Performance benchmarking of sign up with MOSIP ID repo using Mock ekyc
+verifier
+
+eSignet performance benchmarking for eKYC based sign up flow
+
+🔵 Planned
+
+1.8.0
+
+Q3- Q4 {plus}
+
+Java 21 Migration
+
+Mock Identity Service
+
+Sign up
+
+eSignet Service
+
+Plugins
+
+🔵 Planned
+
+1.8.0
+
+Q3- Q4
+
+2026
+
+Support for multiple identity plugins
+
+Support for multiple identity plugins in the eSignet module
+
+🔵 Planned
+
+2026
+
+Identity Brokering / Federation Identity
+
+Securely link a user’s electronic identity across multiple identity
+management systems
+
+🔵 Planned
+
+2026
+
+Support for multi-factor authentication (MFA)
+
+Enable multi-factor authentication (MFA) for enhanced security
+
+🔵 Planned
+
+2026
+
+Access token/session management
+
+Manage sessions to ensure secure and efficient user authentication
+
+🔵 Planned
+
+2026
+
+eSignet as ekYC verifier
+
+OIDC Provider verification
+
+Wallet based verification - Web wallet/phone wallet
+
+OIDC Provider based seeding
+
+Wallet based seeding - Web wallet/phone wallet
+
+To be implemented with a federated identity feature
+
+🔵 Planned
+
+2026
+
+Support for digital signatures using eSignet
+
+Enable eSignet securely sign documents electronically
+
+🔵 Planned
+
+2026
+
+CIBA Support
+
+🔵 Planned
+
+2026
+
+Adding Passkey support for authentication
+
+🔵 Planned
+
+2026
+
+Support the expired claims identification and initiate eKYC
+
+🔵 Planned
+
+2026
+
+QR code Standardization
+
+🔵 Planned
+
+2026
+
+Face auth with eSignet
+
+🔵 Planned
+
+2026
+
+eSignet Sign up - Timeout management in eKYC flow
+
+🔵 Planned

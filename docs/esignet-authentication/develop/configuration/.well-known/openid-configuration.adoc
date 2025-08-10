@@ -1,0 +1,156 @@
+== openid-configuration
+
+eSignet’s `openid-configuration` well-known endpoint holds the map,
+which is the same as the
+https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationResponse[openid-configuration’s]
+well-known specification.
+
+[source,json]
+----
+{
+  "issuer": "https://esignet.collab.mosip.net",
+  "authorization_endpoint": "https://esignet.collab.mosip.net/authorize",
+  "token_endpoint": "https://esignet.collab.mosip.net/v1/esignet/oauth/v2/token",
+  "userinfo_endpoint": "https://esignet.collab.mosip.net/v1/esignet/oidc/userinfo",
+  "jwks_uri": "https://esignet.collab.mosip.net/v1/esignet/oauth/.well-known/jwks.json",
+  "scopes_supported": [
+    "profile",
+    "email",
+    "phone"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "acr_values_supported": [
+    "mosip:idp:acr:password",
+    "mosip:idp:acr:generated-code",
+    "mosip:idp:acr:linked-wallet",
+    "mosip:idp:acr:biometrics"
+  ],
+  "userinfo_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "userinfo_encryption_alg_values_supported": [
+    "RSAXXXXX"
+  ],
+  "response_modes_supported": [
+    "query"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "name",
+    "address",
+    "gender",
+    "birthdate",
+    "picture",
+    "email",
+    "phone_number"
+  ],
+  "claims_locales_supported": [
+    "en"
+  ],
+  "display_values_supported": [
+    "page",
+    "popup",
+    "touch",
+    "wap"
+  ],
+  "ui_locales_supported": [
+    "en"
+  ],
+  "claims_in_verified_claims_supported" : [
+  "name",
+  "address",
+  "gender",
+  "birthdate",
+  "picture",
+  "email",
+  "phone_number" 
+  ]
+}
+----
+
+* `issuer`: The base URL or identifier of the OpenID Connect provider.
+The value comes from the configuration property
+mosip.esignet.discovery.issuer-id.
+* `authorization++_++endpoint`: The URL where the authorization request
+can be initiated.
+* `token++_++endpoint`: The URL where the token exchange occurs to
+obtain an access token.
+* `userinfo++_++endpoint`: The URL where additional user information can
+be requested.
+* `introspection++_++endpoint`: The URL where the token introspection
+can be performed to validate token information.
+* `jwks++_++uri`: The URL where the JSON Web Key Set (JWKS) can be
+retrieved. The JWKS contains the public keys used to verify ID tokens
+and other JWTs.
+* `scopes++_++supported`: The supported scopes that can be requested
+during the authentication process. The value comes from the
+configuration property `mosip.esignet.supported.openid.scopes`.
+* `response++_++types++_++supported`: The supported response types for
+the authorization request. The value comes from the configuration
+property mosip.esignet.supported.response.types.
+* `response++_++modes++_++supported`: The supported response modes for
+the authorization request. The value is ++[++"`query`"++]++, indicating
+that only the query response mode is supported.
+* `token++_++endpoint++_++auth++_++methods++_++supported`: The supported
+authentication methods for the token endpoint. The value is based on the
+configuration property `mosip.esignet.supported.client.auth.methods`.
+* `token++_++endpoint++_++auth++_++signing++_++alg++_++values++_++supported`:
+The supported signing algorithms for the authentication of the token
+endpoint. In this case, the value is ++[++"`RS256`"++]++, indicating
+that only the RS256 (RSA with SHA-256) algorithm is supported.
+* `userinfo++_++signing++_++alg++_++values++_++supported`: The supported
+signing algorithms for the user information endpoint. The value is
+++[++"`RS256`"++]++, indicating that only the RS256 algorithm is
+supported for signing user information.
+* `userinfo++_++encryption++_++alg++_++values++_++supported`: The
+supported encryption algorithms for the user information endpoint. The
+value is ++[++"`RSAXXXXX`"++]++, suggesting that a specific encryption
+algorithm (represented as "`RSAXXXXX`") is supported. The actual
+algorithm should be provided.
+* `userinfo++_++encryption++_++enc++_++values++_++supported`: The
+supported encryption methods for the user information endpoint. The
+value is ++[++"`A128GCM`"++]++, indicating that only the A128GCM
+encryption method is supported.
+* `id++_++token++_++signing++_++alg++_++values++_++supported`: The
+supported signing algorithms for ID tokens. The value is
+++[++"`RS256`"++]++, indicating that only the RS256 algorithm is
+supported for signing ID tokens.
+* `claim++_++types++_++supported`: The supported claim types. The value
+is ++[++"`normal`"++]++, suggesting that only normal claims are
+supported.
+* `claims++_++parameter++_++supported`: Specifies whether the claims
+parameter is supported in authorization requests. The value is true,
+indicating that the claims parameter is supported.
+* `display++_++values++_++supported`: The supported display values for
+the user interface. The value is based on the configuration property
+mosip.esignet.supported.ui.displays.
+* `subject++_++types++_++supported`: The supported subject types. The
+value is ++[++"`pairwise`"++]++, indicating that only pairwise subject
+types are supported.
+* `claims++_++supported`: The supported claims that can be included in
+ID tokens and user info responses. The value is a list of claim names,
+such as "``iss``", "``sub``", "``acr``", "``name``", etc.
+* `acr++_++values++_++supported`: The supported authentication context
+class references (ACR). The value is an empty object ++{++}, indicating
+that no specific ACR values are supported.
+* `request++_++parameter++_++supported`: Specifies whether the request
+parameter is supported in authorization requests. The value is false,
+indicating that the request parameter is not supported.
+* `ui++_++locales++_++supported`: The supported user interface locales.
+The value is an empty object ++{++}, suggesting that no specific UI
+locales are supported.
+* `claims++_++in++_++verified++_++claims++_++supported:` Supported
+verified claim names.

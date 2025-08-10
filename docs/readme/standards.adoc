@@ -1,0 +1,140 @@
+== Standards & Security
+
+eSignet is built on industry-leading security standards, ensuring robust
+privacy and data protection. It implements
+https://openid.net/specs/openid-connect-core-1_0-final.html[OpenID
+Connect Core 1.0] and https://oauth.net/2/[OAuth 2.0], leveraging the
+most secure and trusted authentication flows to safeguard user
+identities.
+
+===== 1. Security
+
+* *Biometric Integration via SBI* +
+eSignet integrates with the
+https://standards.ieee.org/ieee/3167/10925/[*Secure Biometric Interface
+(SBI)*] to support a wide range of biometric service providers. +
+Please refer the links below for the SBI library to enable the biometric
+auth with eSignet
+** https://github.com/mosip/mosip-sdk/tree/master/react-secure-biometric-interface-integrator[React
+SBI Library]
+** https://github.com/mosip/mosip-sdk/tree/master/secure-biometric-interface-integrator[JS
+SBI Library]
+** https://docs.mosip.io/1.2.0/id-lifecycle-management/supporting-components/biometrics/biometric-devices[Supported
+Devices] - View the list of compatible biometric devices.
+* *HSM Integration with PKCS #11* +
+eSignet supports *Hardware Security Module (HSM)* integration using
+*PKCS #11* for the secure storage and management of signing keys.
+
+===== 2. Interoperability
+
+* *Verifiable Credentials & Wallet Integration* +
+eSignet adopts *OpenID standards* to support *verifiable credentials*
+and *wallet-based identity verification*, enabling seamless
+cross-platform interoperability.
+* *Identity Assurance (Introduced in v1.5.0)* +
+From version *v1.5.0*, eSignet includes support for
+link:../esignet-authentication/features.md#identity-assurance-flow-ekyc-verification[*Identity
+Assurance*] *under OpenID Connect*, allowing retrieval of verified user
+claims and associated metadata.
+* *well-knowns* +
+eSignet implements *well-known to publish the URI for metadata
+discovery*. Below are the supporting standardized .well-known endpoints
+for dynamic service configuration and discovery.
+
+[cols=",",options="header",]
+|===
+|*Name* |*URL Paths*
+|OpenID Configuration |/.well-known/openid-configuration
+|Jwks Json |/.well-known/jwks.json
+|Authorization Server |/.well-known/oauth-authorization-server
+| |
+|===
+
+===== 2. Supported Standards and RFCs
+
+eSignet provides a limited implementation of the OpenID protocol,
+supporting the following RFCs and standards:
+
+*a. OAuth 2.0 Standards:*
+
+* https://www.rfc-editor.org/rfc/rfc6749[OAuth 2.0 RFC 6749] -
+Authorization code flow support
+* https://datatracker.ietf.org/doc/html/rfc6750[OAuth 2.0 RFC 6750] -
+Authorization Framework: Bearer Token Usage
+* https://www.rfc-editor.org/rfc/rfc7523[OAuth 2.0 RFC 7523] - JWT
+profile for client authentication
+* https://datatracker.ietf.org/doc/html/rfc7636[OAuth 2.0 RFC 7636]-
+PKCE security extension
+* https://openid.net/specs/openid-connect-core-1_0-final.html[OpenID
+Connect Core 1.0]
+* https://openid.net/specs/openid-connect-discovery-1_0.html[Open ID
+Connect Discovery 1.0]
+
+*b. Token and Discovery Standards:*
+
+* https://www.rfc-editor.org/rfc/rfc7515.html[RFC 7515] - JSON Web
+Signature
+* https://datatracker.ietf.org/doc/html/rfc7517[RFC 7517] - JSON Web
+Keys
+* https://www.rfc-editor.org/rfc/rfc7519[RFC 7519] - ID token and access
+token as JWT
+* https://datatracker.ietf.org/doc/html/rfc8414[OAuth 2.0 RFC 8414] -
+Authorization Server Metadata
+* https://www.rfc-editor.org/rfc/rfc5785[RFC 5785]- Followed for both
+openid and oauth well-knowns
+
+*c. Identity Proofing and security:*
+
+* https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html[Identity
+Assurance 1.0]
+* https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html[IEEE
+SA P3167 SBI 2.0]
+
+===== 3. Supported Authentication Flows
+
+As eSignet incorporates *OpenID Connect*, a wide range of client
+libraries are available for seamless integration. Therefore, it is
+recommended to avoid creating custom code for the integration process.
+
+eSignet implements and supports only the flows mentioned below:
+
+[width="100%",cols="30%,37%,33%",options="header",]
+|===
+|*Standards* |*Flow* |*Client Authentication*
+|OAuth 2.0 |Authorization Code with PKCE |private-key-jwt
+|OIDC |Authorization Code with PKCE |private-key-jwt
+|Identity Assurance 1.0 |Authorization Code with PKCE |private-key-jwt
+|===
+
+*Note:* eSignet supports *confidential clients only*, adhering to the
+principle of *security by design*.
+
+===== 4. Security Enhancements
+
+* *Authorization Code Flow* – Exchanges an authorization code for a
+token, requiring client authentication.
+* *Private-key-jwt -* Our supported client authentication method is
+private-key-jwt only which ensures that the token is given to a
+legitimate client.
+* *PKCE* - We also support the
+https://www.rfc-editor.org/rfc/rfc7636[PKCE](Proof Key for Code
+Exchange) security extension for exchanging an authorization code for a
+token, which guarantees that the authorization code was obtained by the
+same client application performing the code exchange.
+
+*Note:* eSignet currently supports the S256 challenge method in its PKCE
+implementation.
+
+===== 5. eSignet as OAuth 2.0 server
+
+eSignet’s OAuth 2.0 implementation is a lightweight solution designed
+specifically for OIDC authentication flows. It does not function as a
+full-fledged authorization server but provides the essential
+capabilities required for identity verification and kyc. Additionally,
+eSignet:
+
+* *Does not support role-based access control* - As it is designed for
+integration with national-level identity solutions, where predefined
+roles are not necessary for residents.
+
+'''''

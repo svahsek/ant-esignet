@@ -1,0 +1,35 @@
+== Test
+
+Welcome to the Test section! Here, you can explore how to integrate,
+test, and use eSignet across different scenarios. Whether you’re
+experimenting with mock data, setting up integrations, or guiding end
+users through login methods, this section has you covered.
+
+Explore the sections below for detailed guides and instructions:
+
+Experience eSignet in our Collab sandbox.
+
+try-it-out
+
+try-it-out.png
+
+Explore guides to help residents with secure, hassle-free
+authentication.
+
+end-user-guide
+
+End User Guide.png
+
+Explore guides for integrating eSignet with authentication and digital
+wallets.
+
+integration
+
+Integration GuideseSignet.png
+
+Explore guides for seamless eSignet integration with authentication,
+digital wallets, and relying parties.
+
+integration-guide-signup-portal
+
+Integration Guide Signup Portal.png

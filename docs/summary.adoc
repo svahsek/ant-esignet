@@ -1,0 +1,148 @@
+== Table of contents
+
+* link:README.md[eSignet]
+** link:readme/principles.md[Principles]
+** link:readme/standards.md[Standards & Security]
+** link:readme/license.md[License]
+** link:readme/technology/README.md[Technology]
+*** link:readme/technology/technology-stack.md[Technology Stack]
+* link:roadmap-and-releases/README.md[Roadmap and Releases]
+** link:roadmap-and-releases/roadmap/README.md[Roadmap]
+*** link:roadmap-and-releases/roadmap/roadmap-2025.md[Roadmap 2025]
+*** link:roadmap-and-releases/roadmap/roadmap-2024.md[Roadmap 2024]
+** link:roadmap-and-releases/versions/README.md[Releases]
+*** link:roadmap-and-releases/versions/v1.6.1/README.md[v1.6.1]
+**** link:roadmap-and-releases/versions/v1.6.1/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.5.1/README.md[v1.5.1]
+**** link:roadmap-and-releases/versions/v1.5.1/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.5.0/README.md[v1.5.0]
+**** link:roadmap-and-releases/versions/v1.5.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.4.2.md[v1.4.2]
+*** link:roadmap-and-releases/versions/v1.4.1/README.md[v1.4.1]
+**** link:roadmap-and-releases/versions/v1.4.1/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.4.0/README.md[v1.4.0]
+**** link:roadmap-and-releases/versions/v1.4.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.3.0/README.md[v1.3.0]
+**** link:roadmap-and-releases/versions/v1.3.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.2.0/README.md[v1.2.0]
+**** link:roadmap-and-releases/versions/v1.2.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.1.0/README.md[v1.1.0]
+**** link:roadmap-and-releases/versions/v1.1.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v1.0.0/README.md[v1.0.0]
+**** link:roadmap-and-releases/versions/v1.0.0/test-report.md[Test
+Report]
+*** link:roadmap-and-releases/versions/v0.9.0/README.md[v0.9.0]
+**** link:roadmap-and-releases/versions/v0.9.0/test-report.md[Test
+Report]
+* link:interoperability/README.md[Interoperability]
+** link:interoperability/mosip.md[MOSIP]
+** link:interoperability/inji.md[Inji]
+** link:interoperability/opencrvs.md[OpenCRVS]
+* link:build-and-deploy/README.md[Deploy]
+** link:build-and-deploy/deployment-arch/README.md[Deployment
+Architecture]
+*** link:build-and-deploy/deployment-arch/on-prem-installation-guidelines.md[eSignet
+1.5.0 - On-Prem Installation Guide]
+*** link:build-and-deploy/deployment-arch/deployment-guide-1.6.0.md[eSignet
+1.6.1 - On-Prem Installation Guide]
+** link:build-and-deploy/local-deployment/README.md[Local Deployment]
+*** link:build-and-deploy/local-deployment/mock-id-system/README.md[Mock
+Identity System]
+*** link:build-and-deploy/local-deployment/mock-client-application/README.md[Mock
+Relying Party]
+* link:esignet-authentication/README.md[eSignet Authentication]
+** link:esignet-authentication/features.md[Features]
+** link:esignet-authentication/develop/README.md[Develop]
+*** link:esignet-authentication/develop/integration/README.md[Integration
+Guides - eSignet]
+**** link:esignet-authentication/develop/integration/authenticator.md[Authenticator
+Plugin]
+**** link:esignet-authentication/develop/integration/key-binder.md[Key
+Binder Plugin]
+**** link:esignet-authentication/develop/integration/audit.md[Audit
+Plugin]
+**** link:esignet-authentication/develop/integration/wallet/README.md[Digital
+Wallet]
+***** link:esignet-authentication/develop/integration/wallet/credential-holder.md[Credential
+Holder]
+***** link:esignet-authentication/develop/integration/wallet/wallet-authenticator.md[Wallet
+Authenticator]
+**** link:esignet-authentication/develop/integration/relying-party/README.md[Relying
+Party]
+***** link:esignet-authentication/develop/integration/relying-party/relying-party-onboarding.md[Relying
+Party Onboarding]
+***** link:esignet-authentication/develop/integration/relying-party/development-and-integration-with-esignet.md[Development
+and Integration with eSignet]
+*** link:esignet-authentication/develop/components.md[Components -
+eSignet]
+*** link:esignet-authentication/develop/configuration/README.md[Configure
+eSignet]
+**** link:esignet-authentication/develop/configuration/acr.md[ACR]
+**** link:esignet-authentication/develop/configuration/claims.md[Claims]
+**** link:esignet-authentication/develop/configuration/login-id-configuration-in-esignet.md[Login
+ID Configuration in eSignet]
+**** link:esignet-authentication/develop/configuration/purpose-based-ui-rendering-in-esignet.md[Purpose-Based
+UI Rendering in eSignet]
+**** link:esignet-authentication/develop/configuration/.well-known/README.md[.well-known]
+***** link:esignet-authentication/develop/configuration/.well-known/jwks.json.md[jwks.json]
+***** link:esignet-authentication/develop/configuration/.well-known/oauth-configuration.md[oauth-configuration]
+***** link:esignet-authentication/develop/configuration/.well-known/openid-configuration.md[openid-configuration]
+*** link:esignet-authentication/develop/api.md[API]
+** link:esignet-authentication/test/README.md[Test]
+*** link:esignet-authentication/test/try-it-out/README.md[Try It Out]
+**** link:esignet-authentication/test/try-it-out/using-mock-data.md[Using
+Mock Data]
+**** link:esignet-authentication/test/try-it-out/register-yourself.md[Register
+Yourself]
+**** link:esignet-authentication/test/try-it-out/integrate-with-e-signet.md[Integrate
+with eSignet]
+*** link:esignet-authentication/test/end-user-guide/README.md[End User
+Guide]
+**** link:esignet-authentication/test/end-user-guide/health-portal/README.md[Health
+Portal]
+***** link:esignet-authentication/test/end-user-guide/health-portal/login-with-biometrics.md[Login
+with Biometrics]
+***** link:esignet-authentication/test/end-user-guide/health-portal/login-with-password.md[Login
+with Password]
+***** link:esignet-authentication/test/end-user-guide/health-portal/login-with-otp.md[Login
+with OTP]
+***** link:esignet-authentication/test/end-user-guide/health-portal/login-with-qr-code.md[Login
+with QR code (Inji)]
+***** link:esignet-authentication/test/end-user-guide/health-portal/knowledge-based-authentication.md[Knowledge
+Based Identification]
+* link:esignet-signup/README.md[eSignet Signup]
+** link:esignet-signup/signup-portal.md[Signup Portal]
+** link:esignet-signup/features.md[Features]
+** link:esignet-signup/develop/README.md[Develop]
+*** link:esignet-signup/develop/technology/README.md[Architecture]
+**** link:esignet-signup/develop/technology/api.md[API]
+*** link:esignet-signup/develop/components-signup-portal.md[Components -
+Signup Portal]
+*** link:esignet-signup/develop/integration-guide-signup-portal/README.md[Integration
+Guides - Signup]
+**** link:esignet-signup/develop/integration-guide-signup-portal/identity-verifier-plugin.md[Identity
+Verifier Plugin]
+**** link:esignet-signup/develop/integration-guide-signup-portal/profile-registry-plugin.md[Profile
+Registry Plugin]
+**** link:esignet-signup/develop/integration-guide-signup-portal/integration-with-esignet-portal.md[Integration
+with eSignet portal]
+** link:esignet-signup/test/README.md[Test]
+*** link:esignet-signup/test/end-user-guide/README.md[End User Guide]
+**** link:esignet-signup/test/end-user-guide/signup-and-login-with-otp-for-verified-claims.md[Signup
+and Login with OTP for Verified Claims]
+* link:contribution/README.md[Community]
+** link:contribution/code-contribution.md[Code Contribution]
+** link:contribution/code-of-conduct.md[Code of Conduct]
+* link:general/README.md[General]
+** link:general/resources.md[Resources]
+** link:general/faq.md[FAQs]
+** link:general/glossary.md[Glossary]
+* link:overview.md[Overview]

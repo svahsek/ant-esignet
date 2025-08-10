@@ -1,0 +1,29 @@
+== Digital Wallet
+
+A digital ID wallet is a tool or software-based system that stores and
+manages personal information and identity credentials securely in a
+digital format. It helps people keep their information organized and
+protected. This wallet ensures the safety of personal data and makes it
+easily accessible when needed.
+
+++{++% hint style="`info`" %} *Note:* To learn more about Digital ID
+Wallets and their use, you can refer to this article on
+https://www.identity.com/digital-id-wallet-comprehensive-guide/[Digital
+ID Wallet Comprehensive Guide]. ++{++% endhint %}
+
+=== How is digital wallet used in eSignet?
+
+Digital Wallet in eSignet can be used as,
+
+* An application to store verifiable credentials for a holder
+* An authenticator application to provide wallet local authentication
+
+For more details view the below documentation:
+
+card-template (17).png
+
+credential-holder.md
+
+card-template (18).png
+
+wallet-authenticator.md

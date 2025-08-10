@@ -1,0 +1,59 @@
+== Glossary
+
+Term
+
+Description
+
+Digital ID Wallet
+
+A digital ID wallet is a tool that stores and manages personal
+information and identity credentials securely in a digital format. It
+helps people keep their information organized and protected. This wallet
+ensures the safety of personal data and makes it easily accessible when
+needed.
+
+Good ID
+
+Good ID refers to secure, inclusive, and privacy-respecting digital
+identity systems that prioritize user control, interoperability, open
+standards, and long-term sustainability. It ensures ethical and
+trustworthy identity management while protecting individuals’ data.
+
+Identity Systems
+
+In the context of digital identity and access management, it refers to
+the infrastructure and technologies used to manage and verify digital
+identities, ensuring secure access to online services.
+
+Identity Verification
+
+Identity verification is the important process of ensuring that a person
+is who they claim to be to avail of various government and private
+sector services.
+
+Biometric Verification
+
+Passwordless and based on SBI standards, enabling secure authentication
+beyond personal devices.
+
+OTP
+
+Passwordless but requires phone access, serving as a fallback for
+biometric rejections.
+
+Self-Authentication
+
+Users verify themselves, commonly used online.
+
+QR Code
+
+Uses a smartphone selfie and a private key for secure authentication.
+
+Relying Party
+
+A relying party is a service provider that relies on an identity
+provider for authentication and identity verification, allowing users to
+securely and conveniently access their services. Typically, these are
+online services, websites, or applications that require user identity
+verification for access control, personalization, or other reasons. The
+identity provider often utilizes protocols like OpenID Connect.

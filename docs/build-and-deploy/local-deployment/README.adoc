@@ -1,0 +1,28 @@
+== Local Deployment
+
+This document details the steps for running eSignet locally on your
+system for local development and integration.
+
+For the local deployment, eSignet is integrated with the
+https://github.com/mosip/esignet-mock-services/tree/master/mock-identity-system[mock
+identity system] using eSignet plugins specifically developed to connect
+with the mock identity system.
+
+We have a
+https://github.com/mosip/esignet/tree/master/docker-compose[docker-compose]
+setup to start eSignet and its dependent services. Kindly refer to the
+https://github.com/mosip/esignet/blob/master/docker-compose/README.md[readme]
+file to know the steps to run the docker-compose in detail.
+
+==== API Documentation 
+
+To know about the query parameters that are required to test the OIDC
+flow, refer to our stoplight
+https://mosip.stoplight.io/docs/identity-provider/branches/1.5.0/7oz4lmhu3pf6b-e-signet[API
+documentation].
+
+==== Postman Collection 
+
+We also have Postman scripts available under the
+https://github.com/mosip/esignet/tree/master/postman-collection[postman-collections]
+folder in the eSignet GitHub repository.

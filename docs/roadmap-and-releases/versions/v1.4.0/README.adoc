@@ -1,0 +1,72 @@
+== v1.4.0
+
+*Release Number*: v.1.4.0
+
+*Release Date*: 23rd April, 2024
+
+==== Overview
+
+Version 1.4.0 of eSignet introduces a new authentication mode and
+addresses known issues.
+
+[arabic]
+. *Knowledge Based Identification (KBI)*
++
+We are excited to share that eSignet has expanded its authentication
+options to include Knowledge Based Identification (KBI) as one of its
+factors. With eSignet’s integration capabilities, existing ID
+repositories storing user specific details can now be easily integrated
+with eSignet. This integration enables OpenID based login, allowing
+users to access relying party services seamlessly.
+
+To learn more about Knowledge Based Identification, click
+link:../../../esignet-authentication/features.md[here].
+
+[arabic]
+. *Fixes for known issues from v1.3.0*
+
+++{++% hint style="`info`" %} *Note:*
+
+[arabic]
+. The authentication factor can be referred to as either Knowledge Based
+Authentication (KBA) or Knowledge Based Identification (KBI). However,
+from the eSignet’s perspective, we will specifically refer to the
+authentication method as Knowledge Based Identification (KBI).
+. Given the relatively low level of assurance provided by Knowledge
+Based Identification (KBI), we recommend that Knowledge Based
+Authentication (KBA) / Knowledge Based Identification (KBI) should be
+used for the issuance of Verifiable Credentials (VC) or certificates
+rather than serving as a primary method of authentication.  ++{++%
+endhint %}
+
+=== Repositories Released
+
+[width="100%",cols="30%,70%",options="header",]
+|===
+|Repository Released |Tags
+|esignet |https://github.com/mosip/esignet[v1.4.0]
+
+|mosip-config |https://github.com/mosip/mosip-config[v1.4.0-ES]
+
+|artifactory-ref-impl
+|https://github.com/mosip/artifactory-ref-impl[v1.4.0-ES]
+
+|digital-credential-plugins
+|https://github.com/mosip/digital-credential-plugins[v0.1.0]
+|===
+
+For details on deployment, refer to the
+https://github.com/mosip/esignet/tree/v1.4.0/helm[helm charts] in the
+eSignet repository.
+
+=== Documentation
+
+* link:../../../esignet-authentication/features.md[Feature
+Documentation]
+* link:../../../esignet-authentication/develop/integration/relying-party/development-and-integration-with-esignet.md[Integration
+Guides]
+* link:../../../esignet-authentication/test/end-user-guide/README.md[End
+User Guide]
+* https://github.com/mosip/esignet/blob/v1.4.0/docs/esignet-openapi.yaml[API
+Documentation]
+* link:test-report.md[QA Report]

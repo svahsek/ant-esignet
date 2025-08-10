@@ -1,0 +1,27 @@
+== Interoperability
+
+eSignet is built with a modular architecture that offers multiple
+integration points, ensuring flexibility to accommodate diverse use
+cases. This design enables seamless integration across various
+platforms, providing secure identity verification and delivering a
+smooth user experience across applications and services.
+
+eSignet currently integrates with the following platforms:
+
+MOSIP
+
+mosip.md
+
+MOSIP.png
+
+Inji
+
+inji.md
+
+Inji.png
+
+OpenCRVS
+
+opencrvs.md
+
+OpenCRVS.png

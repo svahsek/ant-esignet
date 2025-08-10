@@ -1,0 +1,222 @@
+== Technology Stack
+
+=== Services and Rest Endpoints
+
+eSignet leverages a combination of backend technologies to ensure secure
+identity management and seamless service delivery.
+
+Tool/Technology
+
+Version
+
+Description
+
+License
+
+Java SE 11
+
+OpenJDK 11
+
+Java is a high-level, class-based, object-oriented programming language
+that is designed to have as few implementation dependencies as possible.
+
+Oracle Binary Code License
+
+Spring Framework
+
+2.3.6
+
+Spring Framework provides a comprehensive programming and configuration
+model for modern Java-based enterprise applications - on any kind of
+deployment platform.
+
+Apache License 2.0
+
+Lombok
+
+1.18.24
+
+Project Lombok is a java library that automatically plugs into your
+editor and build tools, spicing up your java.
+
+Lombok License
+
+Logback
+
+1.2.3
+
+Logback is a logging framework that provides a fast, reliable, and
+highly configurable solution for generating logs in Java applications.
+
+Logback License
+
+openapi
+
+1.6.9
+
+The OpenAPI Specification is a specification language for HTTP APIs that
+provides a standardized means to define your API to others.
+
+Apache License 2.0
+
+kernel-keymanager-service (MOSIP)
+
+1.2.0.1-B3
+
+The Key Manager Service provides secure storage, provisioning and
+management of secret data. It provides all the cryptographic operations
+like encryption/decryption and digital signature/verification making one
+trust store for all partner trust path validation.
+
+Mozilla Public License 2.0
+
+React JS
+
+18.2v
+
+React lets you build user interfaces out of individual pieces called
+components.
+
+MIT License
+
+=== Storage
+
+eSignet utilizes high-performance storage solutions for managing
+structured and real-time data.
+
+Tool/Technology
+
+Version
+
+Description
+
+License
+
+Postgres
+
+15
+
+PostgreSQL also known as Postgres, is a free and open-source relational
+database management system (RDBMS) emphasizing extensibility and SQL
+compliance.
+
+OpenSource License
+
+Redis
+
+17.3.14
+
+Redis is a open source, in-memory data store used by millions of
+developers as a database, cache, streaming engine, and message broker.
+Redis can be replaced with any cache compatible with spring-cache.
+
+BSD License
+
+Kafka
+
+18.3.1
+
+Apache Kafka is an open-source distributed event streaming platform used
+by thousands of companies for high-performance data pipelines, streaming
+analytics, data integration, and mission-critical applications.
+
+Apache License 2.0
+
+=== Deployment
+
+eSignet is designed for containerized and automated deployments,
+leveraging modern DevOps tools.
+
+Tool/Technology
+
+Version
+
+Description
+
+License
+
+Maven
+
+3.6
+
+Apache Maven is a software project management and comprehension tool.
+Based on the concept of a project object model (POM), Maven can manage a
+project’s build, reporting and documentation from a central piece of
+information.
+
+Apache License 2.0
+
+Docker
+
+20.4 and above
+
+Docker is a set of platform as a service (PaaS) products that use
+OS-level virtualization to deliver software in packages called
+containers.
+
+OpenSource License
+
+npm
+
+18-alpine
+
+npm is the package manager for the Node JavaScript platform. It puts
+modules in place so that node can find them, and manages dependency
+conflicts intelligently.
+
+Artistic License 2.0
+
+kattu (MOSIP)
+
+master branch
+
+All workflows necessary to build the project is kept here
+
+Helm Chart (MOSIP)
+
+depends on eSignet version
+
+Helm helps you manage Kubernetes applications - helps define, install,
+and upgrade even the most complex Kubernetes application. Charts are
+easy to create, version, share, and publish — so start using Helm and
+stop the copy-and-paste.
+
+=== Testing
+
+eSignet ensures reliability and stability through automated testing
+frameworks and API testing tools.
+
+Tool/Technology
+
+Version
+
+Description
+
+License
+
+JUnit
+
+JUnit is a unit testing framework for the Java programming
+language.JUnit has been important in the development of test-driven
+development, and is one of a family of unit testing frameworks which is
+collectively known as xUnit that originated with SUnit.
+
+Eclipse Public License 1.0
+
+Newman
+
+Newman is a command-line tool that allows you to run Postman collections
+and automate API tests. It is ideal for integrating API testing into
+CI/CD pipelines and provides detailed test reports for automated
+workflows.
+
+Apache License 2.0
+
+Postman
+
+Postman is an API platform that simplifies the API lifecycle and
+streamlines collaboration. You can browse the largest network of public
+APIs, create and share your own workspaces, and access governance rules
+for API quality.
+
+Apache License 2.0

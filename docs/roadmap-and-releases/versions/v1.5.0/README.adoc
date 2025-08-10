@@ -1,0 +1,136 @@
+== v1.5.0
+
+*Release Name*: v.1.5.0
+
+*Release Date*: 23rd Jan, 2025
+
+==== *Overview*
+
+We are excited to announce the release of eSignet v1.5.0, featuring the
+key implementation of Identity Assurance 1.0 (Draft). This open standard
+enhances eSignet’s ability to verify and authenticate identities more
+assuredly, laying the foundation for the newly supported video-based
+eKYC verification plugin. In addition to this core feature, the release
+includes security fixes and several architectural updates to streamline
+workflows and enhance the overall user and developer experience.
+
+==== *Features* 
+
+[arabic]
+. link:broken-reference[*Identity Assurance Implementation*]
+* Implemented Identity Assurance 1.0 (Draft), aligning with open
+standards for higher identity verification assurance, laying the
+foundation for video eKYC support. 
+. link:broken-reference[*Signup and Login with OTP for Verified Claims*]
+* Added video eKYC via WebSocket in the signup portal, enabling secure,
+real-time video verification during registration.
+. link:broken-reference[*Well-Informed Claim Details*]
+* Users now receive clear consent requests before starting eKYC,
+ensuring transparency on data usage.
+. *Clickable QR Code for INJI Wallet Login*
+* A clickable QR code now appears for INJI Wallet login, with an
+embedded deeplink for seamless access within the same device.
+
+==== Major Highlights
+
+[arabic]
+. link:../../../build-and-deploy/local-deployment/[*Local Deployment
+with Docker-Compose*]
+* Removed artifactory and config Server dependencies, enabling local
+eSignet deployment via docker-compose for easier setup and environment
+management. 
+. https://github.com/mosip/esignet-plugins/tree/develop[*eSignet-Plugins
+Repository Updates*]
+* eSignet-plugins repository for better compatibility and functionality.
+. https://github.com/mosip/captcha[*Captcha Validation Improvements*]
+* Enhanced captcha validation for improved security and fewer
+vulnerabilities.
+. https://docs.mosip.io/inji/inji-certify/overview[*VC Issuance
+migration to Inji Certify*]
+* eSignet no longer supports VC issuance. This functionality was
+supported up to eSignet v1.4.2. INJI Certify now handles VC issuance.
+The documentation has been updated to reflect this change.
+
+++{++% hint style="`info`" %} *Note:* The Identity Assurance feature has
+been added in the eSignet 1.5.0 release, and is currently supported only
+with the mock identity system. ++{++% endhint %}
+
+==== *Security Enhancements*
+
+* Security issues have been addressed to enhance platform security and
+speed. For a complete list of fixed bugs, please refer to this
+https://mosip.atlassian.net/issues/MOSIP-35595?filter=-4&jql=labels%20IN%20%28Security%2Csecurity_related%29%20and%20status%20IN%20%28Fixed%2CClosed%2CDocumentation%29%20AND%20%22Release%20Number%5BLabels%5D%22%20%3D%20esignet_v1.5.0[link].
+
+==== *Bug Fixes*
+
+* Several known issues from v1.4.1 have been resolved to improve
+platform stability. A detailed list of fixes is available
+https://mosip.atlassian.net/issues/ES-1216?filter=11684&jql=labels%20%3D%20known-issue%5B%E2%80%A6%5D0IN%20%28Closed%29%20and%20project%20NOT%20IN%20%28MOSIP%29[here].
+
+We believe this release will greatly improve eSignet’s security,
+efficiency, and user experience. Thank you for your continued support!
+
+==== *Key Known Issues*
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|Jira Issue |Issue Description
+|https://mosip.atlassian.net/browse/ES-1992[ES-1992] |OAuth Details API
+is initiating the transaction despite a mismatch between the aud claim
+in the provided ID token and the clientId
+
+|https://mosip.atlassian.net/browse/ES-1986[ES-1986] |IDT based
+authentication is successful on using reused challenge.
+
+|https://mosip.atlassian.net/browse/ES-1981[ES-1981] |The system is not
+checking for an available slot every “6” seconds, for a max of “10” time
+while the loading screen is displaying
+
+|https://mosip.atlassian.net/browse/ES-1977[ES-1977] |Individual ID is
+not validated with IDT auth factor
+|===
+
+Please refer to https://mosip.atlassian.net/issues/?filter=11689[this
+link] for the list of all known issues.
+
+==== *Repositories Released*
+
+[width="100%",cols="22%,78%",options="header",]
+|===
+|Repository Released |Tags
+|esignet |https://github.com/mosip/esignet/tree/v1.5.0[v1.5.0]
+
+|esignet-signup
+|https://github.com/mosip/esignet-signup/tree/v1.1.0[v1.1.0]
+
+|esignet-mock-services
+|https://github.com/mosip/esignet-mock-services/tree/v0.10.0[v0.10.0]
+
+|esignet-plugins
+|https://github.com/mosip/esignet-plugins/tree/v1.3.0[v1.3.0]
+
+|mosip-onboarding
+|https://github.com/mosip/mosip-onboarding/tree/v1.3.0-beta.1[v1.3.0-beta.1]
+|===
+
+==== *Compatible Modules*
+
+[cols=",",options="header",]
+|===
+|Module/Repository |Compatible Version
+|IDA |1.2.1.0
+|ID Repository |1.2.1.0
+|Kernel |1.2.0.1
+|Sunbird |v2.0.0-rc3
+|===
+
+==== *Documentation*
+
+[arabic]
+. https://mosip.stoplight.io/docs/identity-provider/branches/1.5.0/7oz4lmhu3pf6b-e-signet[API
+Documentation]
+. link:../../../esignet-authentication/develop/integration/relying-party/development-and-integration-with-esignet.md[Integration
+Guides]
+. link:../../../esignet-authentication/test/end-user-guide/README.md[End
+User Guide]
+. link:test-report.md[QA Report]
