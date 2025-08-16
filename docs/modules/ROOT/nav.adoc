@@ -1,35 +1,70 @@
-* xref:index.adoc[Esignet Documentation]
-* xref:overview.adoc[Overview]
-* xref:components.adoc[Components]
-* xref:integration-guides.adoc[Integration Guides]
-* xref:readme/license.adoc[License]
-* xref:readme/principles.adoc[Principles]
-* xref:readme/standards.adoc[Standards]
-* xref:readme/technology/technology-stack.adoc[Technology Stack]
-* xref:readme/technology/README.adoc[Technology README]
-* xref:readme/README.adoc[Readme README]
-* xref:well-known.adoc[Well Known]
+
+* xref:index.adoc[Home]
+** xref:overview.adoc[Overview]
+** xref:components.adoc[Components]
+** xref:integration-guides.adoc[Integration Guides]
+** xref:readme/license.adoc[License]
+** xref:readme/principles.adoc[Principles]
+** xref:readme/standards.adoc[Standards]
+** xref:readme/technology/technology-stack.adoc[Technology Stack]
+** xref:readme/technology/README.adoc[Technology README]
+** xref:readme/README.adoc[Readme README]
+** xref:well-known.adoc[Well Known]
 
 
-* General
-** xref:general/faq.adoc[FAQ]
-** xref:general/glossary.adoc[Glossary]
-** xref:general/resources.adoc[Resources]
-** xref:general/README.adoc[General README]
+** Contribution
+*** xref:contribution/README.adoc[Contribution README]
+*** xref:contribution/code-contribution.adoc[Code Contribution]
+*** xref:contribution/code-of-conduct.adoc[Code of Conduct]
+*** xref:contribution/open-id.adoc[Open ID]
 
 
+** Interoperability
+*** xref:interoperability/inji.adoc[Inji]
+*** xref:interoperability/mosip.adoc[MOSIP]
+*** xref:interoperability/opencrvs.adoc[OpenCRVS]
+*** xref:interoperability/README.adoc[Interoperability README]
 
-* Contribution
-** xref:contribution/code-contribution.adoc[Code Contribution]
-** xref:contribution/code-of-conduct.adoc[Code of Conduct]
-** xref:contribution/open-id.adoc[Open ID]
-** xref:contribution/README.adoc[Contribution README]
 
-* Interoperability
-** xref:interoperability/inji.adoc[Inji]
-** xref:interoperability/mosip.adoc[MOSIP]
-** xref:interoperability/opencrvs.adoc[OpenCRVS]
-** xref:interoperability/README.adoc[Interoperability README]
+* Roadmap and Releases
+** xref:roadmap-and-releases/README.adoc[Roadmap & Releases README]
+** Roadmap
+*** xref:roadmap-and-releases/roadmap/README.adoc[Roadmap README]
+*** xref:roadmap-and-releases/roadmap/roadmap-2024.adoc[Roadmap 2024]
+*** xref:roadmap-and-releases/roadmap/roadmap-2025.adoc[Roadmap 2025]
+** Versions
+*** xref:roadmap-and-releases/versions/README.adoc[Versions README]
+*** v0.9.0
+**** xref:roadmap-and-releases/versions/v0.9.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v0.9.0/test-report.adoc[Test Report]
+*** v1.0.0
+**** xref:roadmap-and-releases/versions/v1.0.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.0.0/test-report.adoc[Test Report]
+*** v1.1.0
+**** xref:roadmap-and-releases/versions/v1.1.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.1.0/test-report.adoc[Test Report]
+*** v1.2.0
+**** xref:roadmap-and-releases/versions/v1.2.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.2.0/test-report.adoc[Test Report]
+*** v1.3.0
+**** xref:roadmap-and-releases/versions/v1.3.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.3.0/test-report.adoc[Test Report]
+*** v1.4.0
+**** xref:roadmap-and-releases/versions/v1.4.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.4.0/test-report.adoc[Test Report]
+*** v1.4.1
+**** xref:roadmap-and-releases/versions/v1.4.1/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.4.1/test-report.adoc[Test Report]
+*** xref:roadmap-and-releases/versions/v1.4.2.adoc[v1.4.2]
+*** v1.5.0
+**** xref:roadmap-and-releases/versions/v1.5.0/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.5.0/test-report.adoc[Test Report]
+*** v1.5.1
+**** xref:roadmap-and-releases/versions/v1.5.1/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.5.1/test-report.adoc[Test Report]
+*** v1.6.1
+**** xref:roadmap-and-releases/versions/v1.6.1/README.adoc[README]
+**** xref:roadmap-and-releases/versions/v1.6.1/test-report.adoc[Test Report]
 
 
 
@@ -76,6 +111,7 @@
 **** xref:esignet-authentication/test/try-it-out/using-mock-data.adoc[Using Mock Data]
 **** xref:esignet-authentication/test/try-it-out/README.adoc[Try It Out README]
 
+
 * Esignet Signup
 ** xref:esignet-signup/features.adoc[Features]
 ** xref:esignet-signup/signup-portal.adoc[Signup Portal]
@@ -112,57 +148,8 @@
 ** xref:build-and-deploy/README.adoc[Build & Deploy README]
 
 
-
-* Roadmap and Releases
-** xref:roadmap-and-releases/README.adoc[Roadmap & Releases README]
-** Roadmap
-*** xref:roadmap-and-releases/roadmap/README.adoc[Roadmap README]
-*** xref:roadmap-and-releases/roadmap/roadmap-2024.adoc[Roadmap 2024]
-*** xref:roadmap-and-releases/roadmap/roadmap-2025.adoc[Roadmap 2025]
-** Versions
-*** xref:roadmap-and-releases/versions/README.adoc[Versions README]
-*** v0.9.0
-**** xref:roadmap-and-releases/versions/v0.9.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v0.9.0/test-report.adoc[Test Report]
-*** v1.0.0
-**** xref:roadmap-and-releases/versions/v1.0.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.0.0/test-report.adoc[Test Report]
-*** v1.1.0
-**** xref:roadmap-and-releases/versions/v1.1.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.1.0/test-report.adoc[Test Report]
-*** v1.2.0
-**** xref:roadmap-and-releases/versions/v1.2.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.2.0/test-report.adoc[Test Report]
-*** v1.3.0
-**** xref:roadmap-and-releases/versions/v1.3.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.3.0/test-report.adoc[Test Report]
-*** v1.4.0
-**** xref:roadmap-and-releases/versions/v1.4.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.4.0/test-report.adoc[Test Report]
-*** v1.4.1
-**** xref:roadmap-and-releases/versions/v1.4.1/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.4.1/test-report.adoc[Test Report]
-*** xref:roadmap-and-releases/versions/v1.4.2.adoc[v1.4.2]
-*** v1.5.0
-**** xref:roadmap-and-releases/versions/v1.5.0/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.5.0/test-report.adoc[Test Report]
-*** v1.5.1
-**** xref:roadmap-and-releases/versions/v1.5.1/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.5.1/test-report.adoc[Test Report]
-*** v1.6.1
-**** xref:roadmap-and-releases/versions/v1.6.1/README.adoc[README]
-**** xref:roadmap-and-releases/versions/v1.6.1/test-report.adoc[Test Report]
-
-* Versions
-** xref:versions/Log-in-with-password.adoc[Log in with Password]
-** v1.0.0
-*** xref:versions/v1.0.0/
-** v1.1.0
-*** Test Report
-**** Images
-***** xref:versions/v1.1.0/test-report/_images/feature-health.png[Feature Health]
-***** xref:versions/v1.1.0/test-report/_images/sonar.png[Sonar]
-** v1.2.0
-*** Images
-**** xref:versions/v1.2.0/_images/feature-health-1.2.0.png[Feature Health 1.2.0]
-**** xref:versions/v1.2.0/_images/README.adoc[README]
+* General
+** xref:general/faq.adoc[FAQ]
+** xref:general/glossary.adoc[Glossary]
+** xref:general/resources.adoc[Resources]
+** xref:general/README.adoc[General README]
